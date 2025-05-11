@@ -1,0 +1,54 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .home-container h1 {
+    margin-bottom: 2rem;
+    color: #2c3e50;
+  }
+  
+  .welcome-message {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .welcome-message h2 {
+    color: #4a76de;
+    margin-bottom: 0.5rem;
+  }
+  
+  .welcome-message p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .role-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .auth-options {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .auth-options p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }

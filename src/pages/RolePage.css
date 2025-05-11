@@ -1,0 +1,120 @@
+/* RolePage.css - Estilos para Admin, Moderator y User */
+.role-page {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .role-page h1 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .role-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .role-content > p {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Estilos para las cards en páginas de roles */
+  .admin-tools,
+  .moderator-tools,
+  .user-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .admin-card,
+  .moderator-card,
+  .user-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .admin-card:hover,
+  .moderator-card:hover,
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-card h3,
+  .moderator-card h3,
+  .user-card h3 {
+    color: #4a76de;
+    margin-bottom: 0.8rem;
+  }
+  
+  .admin-card p,
+  .moderator-card p,
+  .user-card p {
+    margin-bottom: 1.2rem;
+    color: #555;
+  }
+  
+  .admin-card .btn,
+  .moderator-card .btn,
+  .user-card .btn {
+    width: 100%;
+  }
+  
+  /* Estilos específicos para User page */
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #4a76de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+  }
+  
+  .avatar-placeholder {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .user-details h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-details p {
+    margin: 0.3rem 0;
+    color: #555;
+  }
+  
+  /* Admin specific styles */
+  .admin-page .role-content {
+    border-top: 4px solid #e74c3c;
+  }
+  
+  /* Moderator specific styles */
+  .moderator-page .role-content {
+    border-top: 4px solid #f39c12;
+  }
+  
+  /* User specific styles */
+  .user-page .role-content {
+    border-top: 4px solid #3498db;
+  }

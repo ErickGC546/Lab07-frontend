@@ -1,0 +1,18 @@
+/* Header.css */
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+  
+.logo h1 {
+    font-size: 1.5rem;
+    color: #4a76de;
+    margin: 0;
+}
